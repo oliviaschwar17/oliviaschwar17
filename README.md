@@ -1,5 +1,12 @@
 ## Hi there 👋
 
+i'm olivia, or liv
+
+🌱 i’m currently learning R in hopes to apply data science methods to my graduate research.
+🔭 i’m currently working on herbicide resistance genetics in aquatic invasive species.
+🦋 pronouns: she/her/hers
+🌼 fun fact: i love to hike, bake, craft and play volleyball in my free time!
+
 <!--
 **oliviaschwar17/oliviaschwar17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
