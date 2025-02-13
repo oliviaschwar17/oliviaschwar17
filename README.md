@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-i'm olivia, or liv
+i'm olivia, or liv! (:
 
 🌱 i’m currently learning R in hopes to apply data science methods to my graduate research.
 🔭 i’m currently working on herbicide resistance genetics in aquatic invasive species.
