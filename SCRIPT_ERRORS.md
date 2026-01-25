@@ -14,10 +14,12 @@ mkdir week_1/metadata/;
 
 **Fixed:**
 ```bash
-mkdir ~/test/week_1/fastq/;
-mkdir ~/test/week_1/fasta/;
-mkdir ~/test/week_1/metadata/;
+mkdir fastq/;
+mkdir fasta/;
+mkdir metadata/;
 ```
+
+**Note:** Since the script changes to `~/test/week_1/` at line 6, we can use relative paths for cleaner, more maintainable code.
 
 ---
 
@@ -33,10 +35,12 @@ mv *.csv ~/week_1/metadata/;
 
 **Fixed:**
 ```bash
-mv *.fastq.gz ~/test/week_1/fastq/;
-mv *.fasta ~/test/week_1/fasta/;
-mv *.csv ~/test/week_1/metadata/;
+mv *.fastq.gz fastq/;
+mv *.fasta fasta/;
+mv *.csv metadata/;
 ```
+
+**Note:** Using relative paths after the `cd` command makes the script cleaner and easier to maintain.
 
 ---
 
@@ -55,13 +59,15 @@ ls *.csv ~/metadata | wc -l
 
 **Fixed:**
 ```bash
-ls ~/test/week_1/fastq/*.fastq.gz | wc -l;
-ls ~/test/week_1/fasta/*.fasta | wc -l;
-ls ~/test/week_1/metadata/*.csv | wc -l
+ls fastq/*.fastq.gz | wc -l;
+ls fasta/*.fasta | wc -l;
+ls metadata/*.csv | wc -l
 ```
+
+**Note:** Using relative paths is cleaner since we're already in the `~/test/week_1/` directory.
 
 ---
 
 ## Summary
 
-All paths have been corrected to use the full `~/test/week_1/` prefix consistently throughout the script. The file counting logic now correctly lists files from their new locations after they've been moved.
+All paths have been corrected to work properly with the directory structure. The script now uses relative paths after the `cd ~/test/week_1/` command, which makes it cleaner, more maintainable, and less error-prone. The file counting logic now correctly lists files from their new locations after they've been moved.
